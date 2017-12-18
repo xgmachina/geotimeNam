@@ -1,5 +1,14 @@
 
-      	{
+      	{ 
+      	  "@context":
+      	  {
+      	  	"name": "http://www.w3.org/2000/01/rdf-schema#label",
+      	  	"rank": "http://resource.geosciml.org/ontology/timescale/gts#rank",
+      	  	"colour": "http://schema.org/color",
+      	  	"base": "http://resource.geosciml.org/ontology/timescale/thors#begin",
+      	  	"end": "http://resource.geosciml.org/ontology/timescale/thors#end"
+      	  },
+
            "oid":1,"name":"Phanerozoic", "colour":"#9AD9DD", "base":541, "top":0 ,"mid":270.5,"interval":541,
               "children":[
                 { 
