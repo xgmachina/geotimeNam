@@ -82,7 +82,7 @@
                          	  
                          
                          {
-                         	"oid":17,"name":"Ordovician","colour":"#009270","base":486.7,"top":443.4,"mid":465.05,"interval":43.3,
+                         	"oid":17,"name":"Ordovician","colour":"#009270","base":485.4,"top":443.4,"mid":464.4,"interval":42,
                                 "children":[
                                 	{
                                 		"oid":18,"name":"Ibexian", "colour":"#1A9D6F", "base":486.7, "top":470.4,"mid":478.55,"interval":16.3,   
@@ -256,7 +256,7 @@
                          },
                          {
 
-                         	"oid":56,"name":"Permian","colour":"#F04028","base":298.9,"top":259.9,"mid":279.4,"interval":39,
+                         	"oid":56,"name":"Permian","colour":"#F04028","base":298.9,"top":252.2,"mid":275.6,"interval":46.7,
                          	   "children":[
                                 {
                                     "oid":57,"name":"Wolfcampian","colour":"#EF5845", "base":298.9, "top":282.0,"mid":290.45,"interval":16.9,
@@ -467,5 +467,3 @@
               ]
 
       	}
-
-   

@@ -124,8 +124,17 @@ return 1;
 function TransInterval(d){
   
 console.log('TransInterval');
-geo =d.name;
-loadM(geo);
+geo = d.name;
+/*loadM(geo);*/
+var intervalColor = d.colour,
+    start = d.base, 
+    end = d.top;
+loadM(start, end);	
+
+var intervalSelect = document.getElementById("intervalSelect");
+intervalSelect.innerHTML="&nbsp;Fossil occurrences within: " +"<span style='background-color: " +intervalColor + "'>" + geo +"</span>"
+						+"<br>"
+						+"&nbsp;Base: " + start + " Ma; Top: " + end+ " Ma";
    //test(geo);
  //console.log(geo);
 
@@ -136,14 +145,16 @@ loadM(geo);
 
 });
 
-//console.log(geo);
-
-function loadM(timeinterval) {
+ 
+//Here the function uses the base and top boundaries of the selected geo time interval to retrieve fossil records from PBDB
+//An other option is to use the name of the time interval to retrieve data, but that may miss some records
+//Numerical values of time boundaries are the most mutual standard about a period of time
+function loadM(base_b, top_b) {
       //var timeinterval = "Permian";//geo;     //"Permian";  //In the following work, change it as a function to request from the timechart
       //console.log(geo);
 	  graphicsLayer.clear();
         var locationURL="https://paleobiodb.org/data1.2/colls/list.json?lngmin=-125&lngmax=-60&latmin=25&latmax=50&limit=all&show=time&level=3";
-        locationURL += "&"+"interval="+timeinterval;
+        locationURL += "&"+"max_ma="+base_b+"&"+"min_ma="+top_b;
        // console.log(locationURL);
        //graphicsLayer = new GraphicsLayer();
       //map.addLayer(graphicsLayer);

@@ -19,10 +19,13 @@ function initMap(){
             }); 
  
 /// pbdb information
-		var timeinterval = "Permian";//geo;     //"Permian";  //In the following work, change it as a function to request from the timechart
-      console.log(geo);
+		//var timeinterval = "Permian";//geo;     //"Permian";  //In the following work, change it as a function to request from the timechart
+	  var intervalSelect = document.getElementById("intervalSelect");
+	  intervalSelect.innerHTML="&nbsp;Fossil occurrences within: <span style='background-color: #F04028'>Permian</span>"
+									+"<br>"
+									+"&nbsp;Base: 298.9 Ma; Top: 252.2 Ma";
         var locationURL="https://paleobiodb.org/data1.2/colls/list.json?lngmin=-125&lngmax=-60&latmin=25&latmax=48.996&limit=all&show=time&level=3";
-        locationURL += "&"+"interval="+timeinterval;
+        locationURL += "&"+"max_ma=298.9"+"&"+"min_ma=252.2"; // use the boundaries of Permian to get fossil results for the initial map window
        // console.log(locationURL);
        graphicsLayer = new GraphicsLayer();
 	    map.addLayer(graphicsLayer);

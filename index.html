@@ -51,10 +51,21 @@
           outline-width: 1px;
           font-weight: bold;
           font: 14px sans-serif;
-         	height: 42px;  
+         	height: 60px;  
             width: 150px;
             position:absolute; left:180px; top:30px; background:#fff;
-            z-index:21;		
+            z-index:20;		
+		}
+		#intervalSelect{
+          border: : black solid thin;
+          outline-style: solid;
+          outline-width: 1px;
+          font-weight: bold;
+          font: 14px sans-serif;
+         	height: 40px;  
+            width: 300px;
+            position:absolute; left:30px; top:93px; background:#fff;
+            z-index:20;		
 		}
     </style> 
     <script src="d3.v3.min.js"></script>
@@ -79,7 +90,8 @@
 		</form> 
 	</div>
 	<div id="stateSelect">
-	 &nbsp;Go to selected area:<br>
+	  <div style="padding-top: 8px;">
+	 &nbsp;<span>Go to selected area:</span><br>
 	  &nbsp;<select name="stateSelectOption" onchange="gotoStateCenter(this.value);"> 
 		<option value='Alabama'>Alabama</option>
 		<option value='Alaska'>Alaska</option>
@@ -133,6 +145,11 @@
 		<option value='Wisconsin'>Wisconsin</option>
 		<option value='Wyoming'>Wyoming</option>      
 	  </select>
+	 </div>
+	</div>
+	<div id="intervalSelect">
+	&nbsp;Fossil occurrences within: <br>
+	&nbsp;Base: ; Top: 
 	</div>
 </div> 
 </body>
