@@ -23,6 +23,17 @@
             overflow: hidden;  
             font-family: "Trebuchet MS";  
         }
+		#HowTo{
+          border: : black solid thin;
+          outline-style: solid;
+          outline-width: 1px;
+          font-weight: bold;
+          font: 12px sans-serif;
+         	height: 18px;  
+            width: 300px;
+            position:absolute; left:30px; top:9px; background:#fff;
+            z-index:20;
+        }
         #OPTION{
           border: : black solid thin;
           outline-style: solid;
@@ -57,6 +68,9 @@
 
 <body onload="initMap()">
 <div id="map" > 
+    <div id="HowTo">
+	&nbsp;<a href="howto.pdf" target="_blank">Tutorial on how to use this pilot system</a>
+	</div>
 	<div id="OPTION">
 		<form method="post" name="form1">
 			&nbsp;Layer to query:<br>
