@@ -24,7 +24,7 @@ function initMap(){
 	  intervalSelect.innerHTML="&nbsp;Fossil occurrences within: <span style='background-color: #F04028'>Permian</span>"
 									+"<br>"
 									+"&nbsp;Base: 298.9 Ma; Top: 252.2 Ma";
-        var locationURL="https://paleobiodb.org/data1.2/colls/list.json?lngmin=-125&lngmax=-60&latmin=25&latmax=48.996&limit=all&show=time&level=3";
+        var locationURL="https://paleobiodb.org/data1.2/colls/list.json?lngmin=-125&lngmax=-60&latmin=25&latmax=48.996&limit=all&show=full&level=3";
         locationURL += "&"+"max_ma=298.9"+"&"+"min_ma=252.2"; // use the boundaries of Permian to get fossil results for the initial map window
        // console.log(locationURL);
        graphicsLayer = new GraphicsLayer();
@@ -52,8 +52,32 @@ function initMap(){
 									   //"XCoord":-104.4140625,
 									   //"YCoord":69.2578125,
 										"Formation":result[i].sfm,
-                    "nam":result[i].nam,
-                    "oei":result[i].oei
+                                         "nam":result[i].nam,
+                                         "oei":result[i].oei,
+                                         "noc":result[i].noc,
+                                         "eag":result[i].eag,
+                                         "lat":result[i].lat,
+                                         "lng":result[i].lng,
+                                         "aut":result[i].aut,
+                                         "pby":result[i].pby,
+                                         "eag":result[i].eag,
+                                         "cc2":result[i].cc2,
+                                         "stp":result[i].stp,
+                                         "cny":result[i].cny,
+                                         "eag":result[i].eag,
+                                         "ldc":result[i].ldc,
+                                         "lt1":result[i].lt1,
+                                         "lf1":result[i].lf1,
+                                         "lm1":result[i].lm1,
+                                         "env":result[i].env,
+                                         "tec":result[i].tec,
+                                         "gcm":result[i].gcm,
+                                         "cps":result[i].cps,
+                                         "lt1":result[i].lt1,
+                                         "cct":result[i].cct,
+                                         "smb":result[i].smb
+
+
 									},
 									"symbol":{
 										  "color":[0,0,0,64],
@@ -137,7 +161,12 @@ function initMap(){
 		 var lon=event.mapPoint.x;
 		 var lat=event.mapPoint.y;		
 		 map.infoWindow.setTitle("Fossil Information ");
-		 map.infoWindow.setContent(  "<b>Formation:</b>"+attr.Formation+"<br/><b>Collection Name:</b>"+attr.nam+"<br/><b>Early interval:</b>"+attr.oei);
+		 map.infoWindow.setContent(  "<b>Formation:</b>"+attr.Formation+"<br/><b>Collection Name:</b>"+attr.nam+"<br/><b>Early interval:</b>"+attr.oei+"<br/><b>Stratigraphic member:</b>"+attr.smb
+		 	+"<br/><b>Occurrences number:</b>"+attr.noc+"<br/><b>latitude:</b>"+attr.lat+"<br/><b>Longitude:</b>"+attr.lng+"<br/><b>Ref_author:</b>"+attr.aut+attr.lng+"<br/><b>Publish year:</b>"+attr.pby
+           +"<br/><b>County:</b>"+attr.cc2+"<br/><b>State(Province):</b>"+attr.stp+"<br/><b>County:</b>"+attr.sny+"<br/><b>Lithology:</b>"+attr.ldc+"<br/><b>Lithology description:</b>"+attr.ldc
++"<br/><b>1st lithology:</b>"+attr.lt1+"<br/><b>Lithification state:</b>"+attr.lf1+"<br/><b>Minor lithology:</b>"+attr.lm1+"<br/><b>Paleoenvironment :</b>"+attr.env
++"<br/><b>Tectonic setting:</b>"+attr.tec+"<br/><b>Geology_comments:</b>"+attr.gcm+"<br/><b>Fossil size:</b>"+attr.cps+"<br/><b>Collection purpose:</b>"+attr.cct                        
+	 	);
 
 		 map.infoWindow.show(event.mapPoint, map.getInfoWindowAnchor(event.screenPoint));
      };
