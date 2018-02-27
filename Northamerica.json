@@ -66,10 +66,10 @@
                                 },  
                                 {
 
-                                    	"oid":15,"name":"", "colour":"#1A9D6F", "base":486.73, "top":469.96,"mid":478.345,"interval":17.77,    
+                                    	"oid":15,"name":"Ibexian", "colour":"#1A9D6F", "base":486.73, "top":469.96,"mid":478.345,"interval":16.77,    
                                     	"children": [
                                             {
-                                            	"oid":16,"name":"", "colour":"#33A97E","base":486.73, "top":480.17,"mid":483.45,"interval":6.56
+                                            	"oid":16,"name":"Skullrockian", "colour":"#33A97E","base":486.73, "top":480.17,"mid":483.45,"interval":6.56
                                             }
                                     	]
                                     
@@ -85,7 +85,7 @@
                          	"oid":17,"name":"Ordovician","colour":"#009270","base":485.4,"top":443.4,"mid":464.4,"interval":42,
                                 "children":[
                                 	{
-                                		"oid":18,"name":"Ibexian", "colour":"#1A9D6F", "base":486.73, "top":469.96,"mid":478.345,"interval":117.7,   
+                                		"oid":18,"name":"Ibexian", "colour":"#1A9D6F", "base":486.73, "top":469.96,"mid":478.345,"interval":16.77,   
                                     	"children": [
                                             {
                                             	"oid":19,"name":"Skullrockian", "colour":"#33A97E","base":486.73, "top":480.17,"mid":483.45,"interval":6.56
@@ -110,7 +110,7 @@
 
                                 			},
                                 			{
-                                				"oid":25,"name":" Not distinguish","colour":"#6ec395","base":468.73,"top":456.72,"mid":462.725,"interval":12.01
+                                				"oid":25,"name":"","colour":"#ffffff","base":468.73,"top":456.72,"mid":462.725,"interval":12.01
 
                                 			}
 
@@ -236,11 +236,11 @@
                                       "children":[
 
                          	 		  	{
-                         	 		  		"oid":52,"name":"Morrowan","colour":"#99C2B5","base":323.23,"top": 318.65,"mid":320.94,"interval":4.58
+                         	 		  		"oid":52,"name":"Morrowan","colour":"#99C2B5","base":323.23,"top":318.65,"mid":320.94,"interval":4.58
 
                          	 		  	},
                          	 		  	{
-                         	 		  		"oid":53,"name":"Atokan","colour":"#C7CBB9","base": 318.65,"top":312.67,"mid":315.66,"interval":5.98
+                         	 		  		"oid":53,"name":"Atokan","colour":"#C7CBB9","base":318.65,"top":312.67,"mid":315.66,"interval":5.98
 
                          	 		  	},
                          	 		  	{
@@ -388,7 +388,7 @@
                          },
 
                          {
-                          "oid":82,"name":"Jurassic","colour":"#34B2C9","base":201.3,"top":145,"mid":173.15,"interval":56.3, 
+                          "oid":82,"name":"Jurassic","colour":"#34B2C9","base":201.3,"top":145.0,"mid":173.15,"interval":56.3, 
                               "children":[
 
                                 {

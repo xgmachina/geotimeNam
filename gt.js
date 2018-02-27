@@ -153,7 +153,7 @@ function loadM(base_b, top_b) {
       //var timeinterval = "Permian";//geo;     //"Permian";  //In the following work, change it as a function to request from the timechart
       //console.log(geo);
 	  graphicsLayer.clear();
-        var locationURL="https://paleobiodb.org/data1.2/colls/list.json?lngmin=-125&lngmax=-60&latmin=25&latmax=50&limit=all&show=time&level=3";
+        var locationURL="https://paleobiodb.org/data1.2/occs/list.json?lngmin=-125&lngmax=-60&latmin=25&latmax=50&&show=full";
         locationURL += "&"+"max_ma="+base_b+"&"+"min_ma="+top_b;
        // console.log(locationURL);
        //graphicsLayer = new GraphicsLayer();
@@ -181,9 +181,23 @@ function loadM(base_b, top_b) {
                   "attributes":{
                      //"XCoord":-104.4140625,
                      //"YCoord":69.2578125,
-                    "Formation":result[i].sfm,
-                    "nam":result[i].nam,
-                    "oei":result[i].oei
+                                         "tna":result[i].tna,
+                                         "att":result[i].att,
+                                         "rnk":result[i].rnk,
+                                         "oei":result[i].oei,
+                                         "lat":result[i].lat,
+                                         "lng":result[i].lng,
+                                         "phl":result[i].phl,
+                                         "cll":result[i].cll,
+                                         "odl":result[i].odl,
+                                         "fml":result[i].fml,
+                                         "gnl":result[i].gnl,
+                                         "idf":result[i].idf,
+										 "ids":result[i].ids,
+										 "sfm":result[i].sfm,
+                                         "jev":result[i].jev,
+										 "gcm":result[i].gcm,
+                                         "ref":result[i].ref
                   },
                   "symbol":{
                       "color":[0,0,0,64],
