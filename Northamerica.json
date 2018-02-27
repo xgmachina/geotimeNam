@@ -6,13 +6,13 @@
       	  	"rank": "http://resource.geosciml.org/ontology/timescale/gts#rank",
       	  	"colour": "http://schema.org/color",
       	  	"base": "http://resource.geosciml.org/ontology/timescale/thors#begin",
-      	  	"end": "http://resource.geosciml.org/ontology/timescale/thors#end"
+      	  	"top": "http://resource.geosciml.org/ontology/timescale/thors#end"
       	  },
 
            "oid":1,"name":"Phanerozoic", "colour":"#9AD9DD", "base":541, "top":0 ,"mid":270.5,"interval":541,
               "children":[
                 { 
-                	"oid":2,"name":"Paleozoic", "colour":"#99C08D", "base":541,"top":252.2 ,"mid":396.6,"interval":288.8,
+                	"oid":2,"name":"Paleozoic", "colour":"#99C08D", "base":541,"top":251.9 ,"mid":396.45,"interval":289.1,
                 	    "children":[
                          {
                          	"oid":3,"name": "Cambrian", "colour": "#7FA056", "base": 541, "top": 485.37,"mid":513.185,"interval":55.63,
@@ -82,7 +82,7 @@
                          	  
                          
                          {
-                         	"oid":17,"name":"Ordovician","colour":"#009270","base":485.4,"top":443.4,"mid":464.4,"interval":42,
+                         	"oid":17,"name":"Ordovician","colour":"#009270","base":485.37,"top":443.83,"mid":464.6,"interval":41.54,
                                 "children":[
                                 	{
                                 		"oid":18,"name":"Ibexian", "colour":"#1A9D6F", "base":486.73, "top":469.96,"mid":478.345,"interval":16.77,   
@@ -162,10 +162,10 @@
                          {
                          	"oid":34,"name":"Silurian","colour":"#B3E1B6","base":443.83,"top":419.2,"mid":431.515,"interval":24.63,
                          		"children":[
-                         		{    "oid":35,"name":"", "colour":"#ffffff","base":443.4,"top":419.2,"mid":431.3,"interval":24.2,
+                         		{    "oid":35,"name":"", "colour":"#ffffff","base":443.83,"top":419.2,"mid":431.515,"interval":24.63,
                          			"children":[
                          				{
-                         					"oid":36,"name":"Medinan","colour":"#A6DCB5","base":443.4,"top":439.99,"mid":441.695,"interval":3.41
+                         					"oid":36,"name":"Medinan","colour":"#A6DCB5","base":443.83,"top":439.99,"mid":441.91,"interval":3.84
                          				},
                          				{
                          					"oid":37,"name":"Niagaran","colour":"#BFE6C3","base":439.99,"top":425.57,"mid":432.78,"interval":14.42
@@ -185,7 +185,7 @@
                          {
                          	"oid":39,"name":"Devonian","colour":"#CB8C37","base":419.2,"top":358.94,"mid":389.07,"interval":60.26,
                          	   "children":[
-                         		{       "oid":40,"name":"", "colour":"#ffffff","base":419.2,"top":359.9,"mid":389.55,"interval":59.3,
+                         		{       "oid":40,"name":"", "colour":"#ffffff","base":419.2,"top":359.94,"mid":389.57,"interval":59.26,
                          			"children":[
                          				{
                          					"oid":41,"name":"Ulsterian","colour":"#E5C468","base":419.2,"top":387.72,"mid":403.46,"interval":31.48
@@ -216,7 +216,7 @@
                          	 	      "oid":46,"name":"Mississippian", "colour":"#678F66", "base":358.94,"top":323.23,"mid":341.085,"interval":35.71,                       
                          	 		  "children":[
                          	 		  	{
-                         	 		  		"oid":47,"name":"Kinderhookian","colour":"#8CB06C","base":358.88,"top":352.35,"mid":355.615,"interval":6.53
+                         	 		  		"oid":47,"name":"Kinderhookian","colour":"#8CB06C","base":358.94,"top":352.35,"mid":355.645,"interval":6.59
                          	 		  	},
                          	 		  	{
                          	 		  		"oid":48,"name":"Osagean","colour":"#99b46c","base":352.35,"top":345.4,"mid":348.875,"interval":6.95
@@ -313,10 +313,10 @@
 
                          	    },
                          	    {
-                         	    	"oid":68,"name":"Ochoan","colour":"#FCB4A2","base":259.81,"top":252.2,"mid":256.005,"interval":7.68,
+                         	    	"oid":68,"name":"Ochoan","colour":"#FCB4A2","base":259.81,"top":251.9,"mid":255.855,"interval":7.91,
                          	    	    "children":[
                          	    	    	{
-                         	    	    		"oid":69,"name":"Ochoan","colour":"#FCB4A2","base":259.81,"top":252.2,"mid":256.005,"interval":7.68
+                         	    	    		"oid":69,"name":"Ochoan","colour":"#FCB4A2","base":259.81,"top":251.9,"mid":256.005,"interval":7.91
                          	    	    	}
 
                          	    	    ]
@@ -336,50 +336,50 @@
 
                 },
                 {
-                   "oid":70,"name":"Mesozoic","colour":"#67C5CA","base":252.2,"top":66,"mid":159.1,"interval":186.2,
+                   "oid":70,"name":"Mesozoic","colour":"#67C5CA","base":251.9,"top":66.04,"mid":158.97,"interval":185.86,
                       "children":[
                         {
-                          "oid":71,"name":"Triassic","colour":"#812B92","base":252.2,"top":201.3,"mid":226.75,"interval":50.9, 
+                          "oid":71,"name":"Triassic","colour":"#812B92","base":251.9,"top":201.36,"mid":226.63,"interval":50.54, 
                               "children":[
 
                                 {
-                                  "oid":72,"name":"Early Triassic","colour":"#983999","base":252.2, "top":247.2,"mid":249.7,"interval":5.0,
+                                  "oid":72,"name":"Early Triassic","colour":"#983999","base":251.9, "top":246.8,"mid":249.35,"interval":5.1,
                                    "children":[
 
                                 {
-                                    "oid":73,"name":"Induan","colour":"#A4469F","base":252.2, "top":251.2,"mid":251.7,"interval":1.0
+                                    "oid":73,"name":"Induan","colour":"#A4469F","base":251.9, "top":249.81,"mid":250.855,"interval":2.09
                                 },
                                 {
-                                    "oid":74,"name":"Olenekian", "colour":"#B051A5", "base":251.2,"top":247.2,"mid":249.2,"interval":4.0
+                                    "oid":74,"name":"Olenekian", "colour":"#B051A5", "base":249.81,"top":246.8,"mid":248.305,"interval":3.01
                                 }
 
                               ] 
                                }, 
                                {
-                                  "oid":75,"name":"Middle Triassic","colour":"#B168B1","base":247.2, "top":235,"mid":241.1,"interval":12.2,
+                                  "oid":75,"name":"Middle Triassic","colour":"#B168B1","base":246.8, "top":237,"mid":241.9,"interval":9.8,
                                    "children":[
 
                                 {
-                                    "oid":76,"name":"Anisian","colour":"#BC75B7","base":247.2, "top":242,"mid":244.6,"interval":5.2
+                                    "oid":76,"name":"Anisian","colour":"#BC75B7","base":246.8, "top":241.5,"mid":244.15,"interval":5.3
                                 },
                                 {
-                                    "oid":77,"name":"Ladinian", "colour":"#C983BF", "base":242,"top":235,"mid":238.5,"interval":7.0
+                                    "oid":77,"name":"Ladinian", "colour":"#C983BF", "base":241.5,"top":237,"mid":239.25,"interval":4.5
                                 }
 
                               ] 
                                }, 
                                {
-                                  "oid":78,"name":"Late Triassic","colour":"#BD8CC3","base":235, "top":201.3,"mid":218.15,"interval":33.7,
+                                  "oid":78,"name":"Late Triassic","colour":"#BD8CC3","base":237, "top":201.36,"mid":219.18,"interval":35.64,
                                    "children":[
 
                                 {
-                                    "oid":79,"name":"Carnian","colour":"#C99BC9","base":235, "top":228,"mid":231.5,"interval":7.0
+                                    "oid":79,"name":"Carnian","colour":"#C99BC9","base":237, "top":228.45,"mid":232.725,"interval":8.55
                                 },
                                 {
-                                    "oid":80,"name":"Norian", "colour":"#D6AAD3", "base":228,"top":208.5,"mid":218.25,"interval":19.5
+                                    "oid":80,"name":"Norian", "colour":"#D6AAD3", "base":228.45,"top":209.56,"mid":219.005,"interval":18.89
                                 },
                                 {
-                                   "oid":81, "name":"Rhaetian","colour":"#E3B9DB","base":208.5,"top":201.3,"mid":204.9,"interval":7.2
+                                   "oid":81, "name":"Rhaetian","colour":"#E3B9DB","base":209.56,"top":201.36,"mid":205.46,"interval":8.2
                                 }
 
                               ] 
@@ -388,59 +388,59 @@
                          },
 
                          {
-                          "oid":82,"name":"Jurassic","colour":"#34B2C9","base":201.3,"top":145.0,"mid":173.15,"interval":56.3, 
+                          "oid":82,"name":"Jurassic","colour":"#34B2C9","base":201.36,"top":145.73,"mid":173.545,"interval":55.63, 
                               "children":[
 
                                 {
-                                  "oid":83,"name":"Early Jurassic","colour":"#42AED0","base":201.3, "top":174.1,"mid":187.7,"interval":27.2,
+                                  "oid":83,"name":"Early Jurassic","colour":"#42AED0","base":201.36, "top":174.15,"mid":187.755,"interval":27.21,
                                    "children":[
 
                                 {
-                                    "oid":84,"name":"Hettangian","colour":"#4EB3D3","base":201.3, "top":199.3,"mid":200.3,"interval":2.0
+                                    "oid":84,"name":"Hettangian","colour":"#4EB3D3","base":201.36, "top":199.4,"mid":200.38,"interval":1.96
                                 },
                                 {
-                                    "oid":85,"name":"Sinemurian", "colour":"#67BCD8", "base":199.3,"top":190.8,"mid":195.05,"interval":8.5
+                                    "oid":85,"name":"Sinemurian", "colour":"#67BCD8", "base":199.4,"top":191.36,"mid":195.38,"interval":8.04
                                 },
                                 {
-                                    "oid":86,"name":"Pliensbachian", "colour":"#80C5DD", "base":190.8,"top":182.7,"mid":186.75,"interval":8.1
+                                    "oid":86,"name":"Pliensbachian", "colour":"#80C5DD", "base":191.36,"top":183.7,"mid":187.53,"interval":7.66
                                 },
                                 {
-                                   "oid":87, "name":"Toarcian","colour":"#99CEE3","base":182.7,"top":174.1,"mid":178.4,"interval":8.6
+                                   "oid":87, "name":"Toarcian","colour":"#99CEE3","base":183.7,"top":174.15,"mid":178.925,"interval":9.55
                                 }
 
                               ] 
                                }, 
                                {
-                                  "oid":88,"name":"Middle Jurassic","colour":"#80CFD8","base":174.1, "top":163.5,"mid":168.8,"interval":10.6,
+                                  "oid":88,"name":"Middle Jurassic","colour":"#80CFD8","base":174.15, "top":163.1,"mid":168.625,"interval":11.05,
                                    "children":[
 
                                 {
-                                    "oid":89,"name":"Aalenian","colour":"#A6D9DD","base":174.1, "top":170.3,"mid":172.2,"interval":3.8
+                                    "oid":89,"name":"Aalenian","colour":"#A6D9DD","base":174.15, "top":170.3,"mid":172.225,"interval":3.85
                                 },
                                 {
-                                    "oid":90,"name":"Bajocian", "colour":"#A6DDE0", "base":170.3,"top":168.3,"mid":169.3,"interval":2.0
+                                    "oid":90,"name":"Bajocian", "colour":"#A6DDE0", "base":170.3,"top":168.28,"mid":169.29,"interval":2.02
                                 },                                
                                 {
-                                    "oid":91,"name":"Bathonian", "colour":"#B3E2E3", "base":168.3,"top":166.1,"mid":167.2,"interval":2.2
+                                    "oid":91,"name":"Bathonian", "colour":"#B3E2E3", "base":168.28,"top":166.07,"mid":167.175,"interval":2.21
                                 },
                                 {
-                                   "oid":92, "name":"Callovian","colour":"#BFE7E5","base":166.1,"top":163.5,"mid":164.8,"interval":2.6
+                                   "oid":92, "name":"Callovian","colour":"#BFE7E5","base":166.07,"top":163.1,"mid":164.585,"interval":2.97
                                 }
 
                               ] 
                                }, 
                                {
-                                  "oid":93,"name":"Late Jurassic","colour":"#B3E3EE","base":163.5, "top":145.0,"mid":154.25,"interval":18.5,
+                                  "oid":93,"name":"Late Jurassic","colour":"#B3E3EE","base":163.1, "top":145.73,"mid":154.415,"interval":17.37,
                                    "children":[
 
                                 {
-                                    "oid":94,"name":"Oxfordian","colour":"#BFE7F1","base":163.5, "top":157.3,"mid":160.4,"interval":6.2
+                                    "oid":94,"name":"Oxfordian","colour":"#BFE7F1","base":163.1, "top":157.25,"mid":160.175,"interval":5.85
                                 },
                                 {
-                                    "oid":95,"name":"Kimmeridgian", "colour":"#CCECF4", "base":157.3,"top":152.1,"mid":154.7,"interval":5.2
+                                    "oid":95,"name":"Kimmeridgian", "colour":"#CCECF4", "base":157.25,"top":152.06,"mid":154.655,"interval":5.19
                                 },
                                 {
-                                   "oid":96, "name":"Tithonian","colour":"#D9F1F7","base":152.1,"top":145.0,"mid":148.55,"interval":7.1
+                                   "oid":96, "name":"Tithonian","colour":"#D9F1F7","base":152.06,"top":145.73,"mid":148.895,"interval":6.33
                                 }
 
                               ] 
@@ -458,13 +458,16 @@
                                    "children":[
 
                                 {
-                                    "oid":99,"name":"Coahulian","colour":"#8CCD60","base":145.01, "top":128.09,"mid":136.55,"interval":16.92
+                                    "oid":99,"name":"","colour":"#ffffff","base":145.73, "top":145.01,"mid":145.37,"interval":0.72
                                 },
                                 {
-                                    "oid":100,"name":"Comanchean", "colour":"#BFE48A", "base":128.09,"top":100.5,"mid":114.295,"interval":27.59
+                                    "oid":100,"name":"Coahulian","colour":"#8CCD60","base":145.01, "top":128.09,"mid":136.55,"interval":16.92
                                 },
                                 {
-                                   "oid":101, "name":"Gulfian","colour":"#D9EF74","base":100.5,"top":66.04,"mid":83.27,"interval":34.46
+                                    "oid":101,"name":"Comanchean", "colour":"#BFE48A", "base":128.09,"top":100.5,"mid":114.295,"interval":27.59
+                                },
+                                {
+                                   "oid":102, "name":"Gulfian","colour":"#D9EF74","base":100.5,"top":66.04,"mid":83.27,"interval":34.46
                                 }
 
                               ] 
@@ -476,38 +479,38 @@
 
                 },
                 {
-                    "oid":102,"name":"Cenozoic","colour":"#F2F91D","base":66.04,"top":0,"mid":33.02,"interval":66.04,
+                    "oid":103,"name":"Cenozoic","colour":"#F2F91D","base":66.04,"top":0,"mid":33.02,"interval":66.04,
                       "children":[
                            {
-                            "oid":103,"name":"Paleogene", "colour":"#FD9A52","base":66.04, "top":23.03,"mid":44.535,"interval":43.01,
+                            "oid":104,"name":"Paleogene", "colour":"#FD9A52","base":66.04, "top":23.03,"mid":44.535,"interval":43.01,
                               "children":[
-                               { "oid":104,"name":"","colour":"#ffffff","base":66.04, "top":23.03,"mid":44.535,"interval":43.01,
+                               { "oid":105,"name":"","colour":"#ffffff","base":66.04, "top":23.03,"mid":44.535,"interval":43.01,
                               "children":[
                                 {
-                                    "oid":105,"name":"","colour":"#ffffff","base":66.04, "top":62.07,"mid":64.055,"interval":3.97
+                                    "oid":106,"name":"","colour":"#ffffff","base":66.04, "top":62.07,"mid":64.055,"interval":3.97
                                 },
                                 {
-                                    "oid":106,"name":"Ynezian","colour":"#FDB462","base":62.07, "top":56.02,"mid":59.045,"interval":6.05
+                                    "oid":107,"name":"Ynezian","colour":"#FDB462","base":62.07, "top":56.02,"mid":59.045,"interval":6.05
                                 },
                                 {
-                                    "oid":107,"name":"Bulitian","colour":"#FEBF65", "base":56.02, "top":52.87,"mid":54.445,"interval":3.15
+                                    "oid":108,"name":"Bulitian","colour":"#FEBF65", "base":56.02, "top":52.87,"mid":54.445,"interval":3.15
                                 },
                                 {
-                                   "oid":108, "name":"Penutian","colour":"#FDBF6F","base":52.87, "top":50.6,"mid":51.735,"interval":2.27
+                                   "oid":109, "name":"Penutian","colour":"#FDBF6F","base":52.87, "top":50.6,"mid":51.735,"interval":2.27
                                 },
 
                                 {
-                                   "oid":109, "name":"Ulatisian","colour":"#FCA773", "base":50.6, "top":47.36,"mid":48.98,"interval":3.24
+                                   "oid":110, "name":"Ulatisian","colour":"#FCA773", "base":50.6, "top":47.36,"mid":48.98,"interval":3.24
                                 },
                                 {
-                                    "oid":110,"name":"Narizian","colour":"#FCB482", "base":47.36,"top":35.25,"mid":41.305,"interval":12.11
+                                    "oid":111,"name":"Narizian","colour":"#FCB482", "base":47.36,"top":35.25,"mid":41.305,"interval":12.11
                                 },
                                 {
-                                  "oid":111,"name":"Refugian","colour":"#FDCDA1", "base":35.25,"top":33.49,"mid":34.37,"interval":1.76
+                                  "oid":112,"name":"Refugian","colour":"#FDCDA1", "base":35.25,"top":33.49,"mid":34.37,"interval":1.76
                                 },
                             
                                 {
-                                   "oid":112,"name":"Zemorrian","colour":"#FED99A", "base":33.49,"top":21.99,"mid":27.74,"interval":11.5
+                                   "oid":113,"name":"Zemorrian","colour":"#FED99A", "base":33.49,"top":21.99,"mid":27.74,"interval":11.5
                                 }
 
 
@@ -519,32 +522,32 @@
                          },
                         {
 
-                           "oid":113, "name":"Neogene","colour":"#FFE619","base":23.03, "top":2.588 ,"mid":12.809,"interval":20.442,
+                           "oid":114, "name":"Neogene","colour":"#FFE619","base":23.03, "top":2.588 ,"mid":12.809,"interval":20.442,
                               "children":[
                                 {
-                                    "oid":114,"name":"","colour":"#ffffff","base":23.03, "top":2.588 ,"mid":12.809,"interval":20.442,
+                                    "oid":115,"name":"","colour":"#ffffff","base":23.03, "top":2.588 ,"mid":12.809,"interval":20.442,
                                       "children":[
                                         {
-                                            "oid":115,"name":"Zemorrian","colour":"#FED99A", "base":33.49,"top":21.99,"mid":27.74,"interval":11.5
+                                            "oid":116,"name":"Zemorrian","colour":"#FED99A", "base":33.49,"top":21.99,"mid":27.74,"interval":11.5
                                         },
                                         {
-                                           "oid":116, "name":"Saucesian","colour":"#FFFF33","base":21.99,"top":16.51,"mid":19.25,"interval":5.48
+                                           "oid":117, "name":"Saucesian","colour":"#FFFF33","base":21.99,"top":16.51,"mid":19.25,"interval":5.48
 
                                         },
                                         {
-                                            "oid":117,"name":"Relizian","colour":"#FFFF41","base":16.51,"top":15.51,"mid":16.01,"interval":1
+                                            "oid":118,"name":"Relizian","colour":"#FFFF41","base":16.51,"top":15.51,"mid":16.01,"interval":1
                                         },
                                         {
-                                            "oid":118,"name":"Luisian","colour":"#FFFF4D","base":15.51, "top":13.51,"mid":14.51,"interval":2
+                                            "oid":119,"name":"Luisian","colour":"#FFFF4D","base":15.51, "top":13.51,"mid":14.51,"interval":2
                                         },
                                         {
-                                            "oid":119,"name":"Mohnian","colour":"#FFFF59","base":13.51,"top":7.51,"mid":10.51,"interval":6
+                                            "oid":120,"name":"Mohnian","colour":"#FFFF59","base":13.51,"top":7.51,"mid":10.51,"interval":6
                                         },
                                         {
-                                            "oid":120,"name":"Delmontian","colour":"#FFFF66","base":7.51,"top":2.9,"mid":5.205,"interval":4.61
+                                            "oid":121,"name":"Delmontian","colour":"#FFFF66","base":7.51,"top":2.9,"mid":5.205,"interval":4.61
                                         },
                                         {
-                                           "oid":121, "name":"Repettian","colour":"#FFFF73","base":2.9,"top":2.19,"mid":2.545,"interval":0.71
+                                           "oid":122, "name":"Repettian","colour":"#FFFF73","base":2.9,"top":2.19,"mid":2.545,"interval":0.71
                                         }                                                                   
                                       ]
 
@@ -556,20 +559,20 @@
 
                          {
 
-                            "oid":122,"name":"Quaternary","colour":"#F9F97F","base":2.588, "top":0 ,"mid":1.294,"interval":2.588,
+                            "oid":123,"name":"Quaternary","colour":"#F9F97F","base":2.588, "top":0 ,"mid":1.294,"interval":2.588,
                               "children":[
                                 {
-                                    "oid":123,"name":"","colour":"#ffffff","base":2.588, "top":0 ,"mid":1.294,"interval":2.588,
+                                    "oid":124,"name":"","colour":"#ffffff","base":2.588, "top":0 ,"mid":1.294,"interval":2.588,
                                       "children":[
                                         
                                         {
-                                            "oid":124,"name":"Repettian","colour":"#FFFF73","base":2.9,"top":2.19,"mid":2.545,"interval":0.71
+                                            "oid":125,"name":"Repettian","colour":"#FFFF73","base":2.9,"top":2.19,"mid":2.545,"interval":0.71
                                         },
                                         {
-                                           "oid":125, "name":"Venturian","colour":"#FFFFB3","base":2.19,"top":1.89,"mid":2.04,"interval":0.3
+                                           "oid":126, "name":"Venturian","colour":"#FFFFB3","base":2.19,"top":1.89,"mid":2.04,"interval":0.3
                                         },
                                         {
-                                           "oid":126, "name":"Wheelerian","colour":"#FFFFBF","base":1.89,"top":0,"mid":0.945,"interval":1.89
+                                           "oid":127, "name":"Wheelerian","colour":"#FFFFBF","base":1.89,"top":0,"mid":0.945,"interval":1.89
                                         
                                         }
 
