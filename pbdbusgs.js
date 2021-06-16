@@ -100,19 +100,19 @@ function initMap(){
         //pbdb informaiton
 
   
-
-   wmsLayer = new WMSLayer("https://mrdata.usgs.gov/services/id?",{
+ <!-- 06/15/2021 replace old WMS link "https://mrdata.usgs.gov/services/sgmc?" with the new link "https://mrdata.usgs.gov/services/kb?" --> 
+   wmsLayer = new WMSLayer("https://mrdata.usgs.gov/services/kb?",{
       format:"png",
       resourceInfo:{
             copyright:"USGS",
-             description:"Idaho_Lithology",
+             description:"KB_Geology",
              extent:new Extent(-117.3,41.9,-111,49.1,{wkid:4326}),
              featureInfoFormat: "text/html",
-             getFeatureInfo:"https://mrdata.usgs.gov/services/id?",
-             getMapURL:"https://mrdata.usgs.gov/services/id?",
+             getFeatureInfo:"https://mrdata.usgs.gov/services/kb?",
+             getMapURL:"https://mrdata.usgs.gov/services/kb?",
             layerInfos:[
               new WMSLayerInfo({
-                name:"Idaho geo",
+                name:"KB_Geology",
                 queryable:true,
                 showPopup: true
               })] ,
@@ -120,7 +120,7 @@ function initMap(){
               version:"1.3.0"   
             },
               version:"1.3.0",
-              visibleLayers:["Idaho_Lithology","Idaho_Faults"],   // The overlay order:Lithology(base)->Faults(top)
+              visibleLayers:["KB_Geology"],   // The overlay order:Lithology(base)->Faults(top)
               opacity:0.6
            });
            map.addLayer(wmsLayer);
@@ -168,7 +168,7 @@ function initMap(){
       var lon=event.mapPoint.x;
       var lat=event.mapPoint.y;
       var bbox = lon.toString()+","+lat.toString()+","+(lon+0.0000001).toString()+","+(lat+0.0000001).toString();
-      var infoURL="https://mrdata.usgs.gov/services/id?service=WMS&request=GetFeatureInfo&VERSION=1.1.1&format=image/png&layers=Idaho_Lithology&query_layers=Idaho_Lithology&SRS=EPSG:3857&info_format=text/html&exception=text/xml&x=0&y=0&radius=0";
+      var infoURL="https://mrdata.usgs.gov/services/kb?service=WMS&request=GetFeatureInfo&VERSION=1.1.1&format=image/png&layers=KB_Geology&query_layers=KB_Geology&SRS=EPSG:3857&info_format=text/html&exception=text/xml&x=0&y=0&radius=0";
       infoURL += "&"+"bbox="+bbox+"&WIDTH=500&HEIGHT=250&styles=default"
  // use ajax method to get the code of html containing the geological bodies infomation, convert it to string,and extract it by Tag address
           
